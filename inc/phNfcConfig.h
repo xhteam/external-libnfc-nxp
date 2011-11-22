@@ -141,7 +141,7 @@
 
 /**< Default Session ID for Initialisation */
 #ifndef DEFAULT_SESSION
-#define DEFAULT_SESSION           "android8"
+#define DEFAULT_SESSION           "android9"
 #endif
 
 
@@ -203,7 +203,7 @@
 /** Resolution value for the timer, here the 
     timer resolution is 500 milliseconds */
 #ifndef TIMER_RESOLUTION
-#define TIMER_RESOLUTION                500U
+#define TIMER_RESOLUTION                100U
 #endif 
 
 /* Kindly note that the below Timeout values should be
@@ -213,14 +213,14 @@
 /**< Defines guard time out value for LLC timer, 
     1000 is in milliseconds */
 #ifndef LINK_GUARD_TIMEOUT
-#define LINK_GUARD_TIMEOUT              1000U
+#define LINK_GUARD_TIMEOUT              100U
 #endif 
 
 
 /**< Defines connection time out value for LLC timer, 
     1000 is in milliseconds */
 #ifndef LINK_CONNECTION_TIMEOUT
-#define LINK_CONNECTION_TIMEOUT         1000U
+#define LINK_CONNECTION_TIMEOUT         100U
 #endif 
 
 /**< Defines ACK time out value for LLC timer,
@@ -330,7 +330,7 @@
 #define ENABLE_P2P
 
 #define DEFAULT_NFCIP_INITIATOR_MODE_SUPPORT   0x3FU
-#define DEFAULT_NFCIP_TARGET_MODE_SUPPORT      0x0FU
+#define DEFAULT_NFCIP_TARGET_MODE_SUPPORT      0x0EU
 
 /**< Macro to Enable the ISO14443-B Feature */
 #define TYPE_B
